@@ -1,8 +1,39 @@
 #name a {
   text-decoration: none;
+  text-align: left;
   color: red
 
 }
 nav{
-  background-color: green;
+  background-color: darkgreen;
+  /* text-align: right;
+  text-decoration: none; */
+}
+#links {
+  text-align: right;
+  /* text-decoration: none; */
+  font-size: 25px;
+
+  /* height: 50px;
+  padding: 20px; */
+}
+#links a {
+  color: bisque;
+  text-decoration: none;
+  padding: 10px;
+}
+#quote {
+  text-align: center;
+  color: darkolivegreen;
+}
+footer {
+  text-align: center;
+  background-color: darkgreen;
+
+}
+.media {
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
