@@ -1,7 +1,7 @@
 #name a {
   text-decoration: none;
   text-align: left;
-  color: red
+  color: bisque
 
 }
 nav{
@@ -13,7 +13,6 @@ nav{
   text-align: right;
   /* text-decoration: none; */
   font-size: 25px;
-
   /* height: 50px;
   padding: 20px; */
 }
