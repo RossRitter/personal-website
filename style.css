@@ -1,5 +1,7 @@
-#name{
+#name a {
+  text-decoration: none;
   color: red
+
 }
 nav{
   background-color: green;
