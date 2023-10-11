@@ -16,12 +16,12 @@ nav {
   position: relative;
   width: 100%;
   /* margin: 20px; */
-
 }
 #links {
   text-align: right;
   /* text-decoration: none; */
   font-size: 25px;
+  position: relative;
   /* height: 50px;
   padding: 20px; */
 }
@@ -44,6 +44,7 @@ footer {
   height: 50px;
   width: 50px;
   border-radius: 50%;
+  /* footer img  */
 }
 html{
   background-color: bisque;
@@ -111,21 +112,33 @@ p {
   height: 25em;
   /* margin-left: 24em; */
 }
-#steelers {
+/* #steelers {
   width: 15em;
   height: 10em;
-  margin-left: 1em;
-}
+  /* margin-left: 1em; */
+  /* display: inline; */
+/* }
 #hornets {
   width: 15em;
   height: 10em;
-  margin-left: 8em;
-}
-#portsmouth{
+  /* margin-left: 8em; */
+  /* display: inline; */
+/* }
+/* #portsmouth{
+  width: 15em;
+  height: 10em; */
+  /* margin-left: 7em; */
+  /* display: inline;
+  /* margin: auto; 
+}*/ 
+.team {
+  display: inline;
+  margin: 2em;
   width: 15em;
   height: 10em;
-  margin-left: 7em;
+/* made class with teams insted of id for each of the sports img */
 }
+
 #pasta {
   display: block;
   margin: auto;
