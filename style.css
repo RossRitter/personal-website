@@ -1,16 +1,21 @@
 #name > a {
   text-decoration: none;
-  text-align: left;
+  /* margin-top: 5em; */
+  /* text-align: left; */
   color: bisque
   
 }
-nav{
+#name {
+  padding-top: 1em;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+nav {
   background-color: darkgreen;
   /* text-align: right;
   text-decoration: none; */
   position: relative;
   width: 100%;
-  margin: 20px;
+  /* margin: 20px; */
 
 }
 #links {
@@ -27,7 +32,7 @@ nav{
 }
 #quote {
   text-align: center;
-  color: darkolivegreen;
+  /* color: darkolivegreen; */
 }
 footer {
   text-align: center;
@@ -43,6 +48,7 @@ footer {
 html{
   background-color: bisque;
 }
+
 main {
   width: 70vw;
   min-height: 80%;
@@ -57,22 +63,89 @@ main {
   margin-right: auto;
   /* center the picutre within main section */
 }
-#honeymoon {
-  width: 300px;
-}
 h2 {
   text-align: center;
   color: cadetblue;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline;
 }
 h3 {
   color: chocolate;
   text-align: center;
   padding: 50px;
+  font-family: fantasy;
+}
+h4 {
+  text-align: center;
+  color: goldenrod;
 }
 p {
   color: bisque;
   margin: 10px;
   border: solid;
   padding: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#honeymoon {
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+#books {
+  text-align: center;
+  color: darkorange;
+  margin-bottom: 50px ;
+}
+#projetsWork{
+  border: solid;
+  color: royalblue;
+}
+#Professor {
+  text-decoration: none;
+}
+#book {
+  display: block;
+  margin: auto;
+  /* center img */
+  width: 20em;
+  height: 25em;
+  /* margin-left: 24em; */
+}
+#steelers {
+  width: 15em;
+  height: 10em;
+  margin-left: 1em;
+}
+#hornets {
+  width: 15em;
+  height: 10em;
+  margin-left: 8em;
+}
+#portsmouth{
+  width: 15em;
+  height: 10em;
+  margin-left: 7em;
+}
+#pasta {
+  display: block;
+  margin: auto;
+  /* center img */
+}
+#ck3 {
+  display: block;
+  margin: auto;
+  /* center img  */
+}
+#coding {
+  display: block;
+  margin: auto;
+}
+
+ul{
+  text-decoration: underline;
+}
+.hobbies {
+  border: solid;
+  color: royalblue;
+  margin-bottom: 5em;
 }
